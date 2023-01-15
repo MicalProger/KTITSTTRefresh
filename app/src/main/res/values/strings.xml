@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Звонки в КТИТС</string>
+    <string name="title_home">День текущий</string>
+    <string name="title_dashboard">День грядущий</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="before_start">До начала</string>
+</resources>
