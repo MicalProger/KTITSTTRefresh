@@ -37,19 +37,6 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:onClick="onAct"
-                    android:text="Activate new" />
-
-                <Button
-                    android:id="@+id/button"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:onClick="onAdd"
-                    android:text="Add new" />
-
                 <LinearLayout
                     android:id="@+id/MainLL"
                     android:layout_width="match_parent"

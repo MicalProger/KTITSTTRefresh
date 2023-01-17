@@ -1,0 +1,92 @@
+﻿[
+  [
+    null,
+    null,
+    {
+      "LessonName": "Математика",
+      "ClassNo": "310"
+    },
+    {
+      "LessonName": "Английский|Литература",
+      "ClassNo": "202, 411"
+    }
+  ],
+  [
+    {
+      "LessonName": "Английский",
+      "ClassNo": "406, 411"
+    },
+    {
+      "LessonName": "Химия",
+      "ClassNo": "425"
+    },
+    {
+      "LessonName": "Русский язык",
+      "ClassNo": "202"
+    },
+    {
+      "LessonName": "Физра|Геометрия",
+      "ClassNo": "спортзал, 310"
+    }
+  ],
+  [
+    null,
+    null,
+    {
+      "LessonName": "ОБЖ",
+      "ClassNo": "205"
+    },
+    {
+      "LessonName": "Математика",
+      "ClassNo": "310"
+    },
+    {
+      "LessonName": "История",
+      "ClassNo": "414"
+    }
+  ],
+  [
+    {
+      "LessonName": "Физика",
+      "ClassNo": "321"
+    },
+    {
+      "LessonName": "Информатика",
+      "ClassNo": "315"
+    },
+    {
+      "LessonName": "Физра",
+      "ClassNo": "спортзал"
+    }
+  ],
+  [
+    {
+      "LessonName": "Математика",
+      "ClassNo": "310"
+    },
+    {
+      "LessonName": "Информатика",
+      "ClassNo": "315"
+    },
+    {
+      "LessonName": "Татарский язык",
+      "ClassNo": "312,322"
+    },
+    {
+      "LessonName": "Физика",
+      "ClassNo": "321"
+    }
+  ],
+  [
+    null,
+    null,
+    {
+      "LessonName": "Литература",
+      "ClassNo": "202"
+    },
+    {
+      "LessonName": "История",
+      "ClassNo": "315"
+    }
+  ]
+]

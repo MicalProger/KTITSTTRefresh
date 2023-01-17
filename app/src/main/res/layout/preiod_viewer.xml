@@ -8,6 +8,13 @@
     android:padding="10dp">
 
     <TextView
+        android:id="@+id/startTimeTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="gone" />
+
+    <TextView
         android:id="@+id/lessonTV"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -23,11 +30,11 @@
 
 
     <LinearLayout
-        android:id="@+id/progressViewer"
+        android:id="@+id/timeViewer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:visibility="visible">
+        android:visibility="gone">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -55,16 +62,23 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/progressViewer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:visibility="gone">
 
             <ProgressBar
                 android:id="@+id/periodPB"
                 style="?android:attr/progressBarStyleHorizontal"
-                android:layout_width="320dp"
+                android:layout_width="310dp"
                 android:layout_height="wrap_content"
                 android:max="1000" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
 
             <TextView
                 android:id="@+id/textProgressTV"
